@@ -1,0 +1,7 @@
+
+WQ
+type MyConfirmedTransaction @entity {
+    id: ID!
+    instructionsCount: Int!
+}
+Q

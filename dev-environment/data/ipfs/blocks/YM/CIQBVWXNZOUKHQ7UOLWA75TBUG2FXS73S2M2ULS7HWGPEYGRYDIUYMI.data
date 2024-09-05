@@ -1,0 +1,24 @@
+
+ÐÈdataSources:
+  - kind: substreams
+    mapping:
+      apiVersion: 0.0.7
+      file:
+        /: /ipfs/QmS1mzJgSwLHcqTGu8i5Jem7dG2P7Artas4WrCub8TD19C
+      handler: handleTriggers
+      kind: substreams/graph-entities
+    name: my_project
+    network: solana
+    source:
+      package:
+        file:
+          /: /ipfs/QmcgRLsC3o3cAbTuPng1X79X3nB1TZaNFcce9ESEX5X4UZ
+        moduleName: map_filtered_transactions
+description: my-project Substreams-powered-Subgraph
+indexerHints:
+  prune: auto
+schema:
+  file:
+    /: /ipfs/Qmea3sau59DMMTtryLZZKeHNcjemYGgtv4zTjsdySnYaJs
+specVersion: 1.0.0
+È
