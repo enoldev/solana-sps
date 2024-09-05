@@ -1,5 +1,0 @@
-
-type MyConfirmedTransaction @entity {
-    id: ID!
-    instructionsCount: Int!
-}
